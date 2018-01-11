@@ -1,0 +1,74 @@
+*{
+	padding:0;
+	margin:0;
+}
+h1{
+	color: navy;
+	display:inline-block;
+}
+h2{
+	color: navy;
+}
+h3{
+	color: navy;
+}
+body{
+	background-color:cadetblue;
+}
+div{
+	width: 300px; 
+	float: left;
+}
+.one, .two, .insta, .instag, #three{
+	height: 100px;
+	border-bottom: 4px solid black;
+}
+body {
+	margin: 0;
+}
+nav ul {
+	margin: 0;
+}
+nav {
+	padding: 30px;
+	margin: 20px;
+
+}
+nav ul li {
+	display: inline;
+	text-decoration: none;
+	margin: 130px;
+	font-weight: bolder;
+}
+.insta {
+	width: 30px;
+}
+
+img, .revjpg {
+	margin: 15px;
+	border: 3px solid black;
+	position:absolute;
+}
+.heads{
+	display:inline-block;
+	text-decoration:none;
+	width:100%;
+}
+p{
+	float:right;
+	display:inline;
+	padding-right:330px;
+	padding-top: 50px
+}
+.bottom{
+	border-top:4px solid navy;
+	border-width: 100%;
+	position:relative;
+	margin-top: 700px;
+}
+.top{
+	border-bottom:4px solid navy;
+	color: black;
+	position:relative;
+
+}

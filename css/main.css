@@ -1,0 +1,38 @@
+body{
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+.box{
+	height: 200px;
+	display: inline-block;
+	width: 24%;
+}
+.black{
+	background-color: black;
+}
+.grey{
+	background-color: grey;
+}
+.slategrey{
+	background-color: slategrey;
+}
+.darkgrey{
+	background-color: darkgrey;
+}
+/*media query greater than 1440*/
+@media (min-width: 1440px){
+	.box{
+		display: block;
+		width: 100%;
+	}
+}
+/*when the screen is less than 600px*/
+@media (max-width: 600px){
+	.grey, .slategrey{
+		display: none;
+	}
+	.darkgrey, .black{
+		width: 40%;
+	}
+
+}
